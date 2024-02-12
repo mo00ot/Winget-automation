@@ -4,7 +4,7 @@
 - in C:\ create a folder named winget.
 place files downloaded and open winget.bat as administrator.
 - i configurate the file with Firefox, Notepad++ and advance IP scanner.
-- mod winget.bat for add more program, use winget search (name of the program), copy the ID and mod like this:
+- mod winget.bat for add more program: use winget search (name of the program) in a powershell or cmd, copy the ID and mod like this:
 -
 - OG file
 
@@ -39,7 +39,7 @@ REM 7zip
 winget install 7zip.7zip
 if %ERRORLEVEL% EQU 0 Echo 7zip installed successfully.   %ERRORLEVEL%
 
-- for update programs or if you have pre installed winget
+- for update programs or if you have pre installed winget:
 remove the file named Winget installer.ps1
 and remove the second line from winget.bat
 
