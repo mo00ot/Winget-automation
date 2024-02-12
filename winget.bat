@@ -1,5 +1,5 @@
 @echo off
-Powershell.exe -executionpolicy remotesigned -File  C:\winget\Winget installer.ps1
+Powershell.exe -executionpolicy remotesigned -File  C:\winget\wingetinstaller.ps1
 Echo Install Firefox, Notepad++ and Advance IP Scanner
 REM Firefox  
 winget install Mozilla.Firefox
