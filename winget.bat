@@ -1,6 +1,6 @@
 @echo off
 Powershell.exe -executionpolicy remotesigned -File  C:\winget\wingetinstaller.ps1
-Echo Install Firefox, Notepad++, Advance IP Scanner, PuTTY, WinSCP, qBittorrent, VLC and 7zip.
+Echo Install Firefox, Notepad++ and Advance IP Scanner.
 REM Firefox  
 winget install Mozilla.Firefox
 if %ERRORLEVEL% EQU 0 Echo Firefox installed successfully.  
