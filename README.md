@@ -44,3 +44,16 @@ remove the file named Winget installer.ps1
 and remove the second line from winget.bat
 
 pls tell me all problems.
+
+14'02'24
+added branch "preconfigurated"
+winget.bat have some programs more of the main branch
+list: 
+- Firefox
+- Notepad++
+- Advance IP Scanner
+- PuTTY
+- WinSCP
+- qBittorrent
+- VLC
+- 7-Zip
